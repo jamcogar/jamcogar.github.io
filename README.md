@@ -1,2 +1,1 @@
-# jamcogar.github.io
-Portafolio Personal
+# 00_WS_SINCO

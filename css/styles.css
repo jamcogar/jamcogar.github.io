@@ -1,0 +1,34 @@
+*{margin: 0; padding: 0;}
+body{
+    background-color: rgb(203, 235, 233);
+}
+header{
+    width: 100%;
+    overflow: hidden;
+    background: white;
+    margin-bottom: 20px;
+}
+.wrapper{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+
+}
+header .logo{
+    float: left;
+    line-height: 100px;
+}
+header nav{
+    float: right;
+    line-height: 100px;
+}
+header nav a{
+    display: inline-block;
+    color: rgb(175, 206, 226);
+    text-decoration: none;
+    padding: 10px 20px;
+    line-height: normal;
+    font-size: 20px;
+
+}
