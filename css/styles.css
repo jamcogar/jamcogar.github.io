@@ -2,33 +2,93 @@
 body{
     background-color: rgb(203, 235, 233);
 }
+.contenido{
+    padding-top: 100px;
+}
 header{
+    height:7em;
     width: 100%;
     overflow: hidden;
     background: white;
     margin-bottom: 20px;
+    position: fixed;
+    left: 0;
+    top:0;
 }
 .wrapper{
-    width: 90%;
-    max-width: 1000px;
-    margin: auto;
+    padding: 20px;
+    width:90%;
+    max-width:1000px ;
+    margin:auto ;
     overflow: hidden;
 
 }
 header .logo{
     float: left;
-    line-height: 100px;
+    line-height: 80px;
 }
 header nav{
     float: right;
-    line-height: 100px;
+    line-height: 80px;
 }
 header nav a{
     display: inline-block;
-    color: rgb(175, 206, 226);
+    color: navy;
     text-decoration: none;
     padding: 10px 20px;
     line-height: normal;
     font-size: 20px;
+    font-weight:bold;
+    -webkit-transition: all 500 ms ease;
+    -o-transition: all 500 ms ease;
+    transition: all 500 ms ease;
+}
 
+header nav a:hover{
+    background:rgb(248, 232, 9);
+    border-radius: 20px;
+}
+main{
+    padding: 10rem;
+}
+p{
+    line-height: 1.5rem;
+}
+figure{
+    
+    align-items: center;
+}
+footer{
+    color:white;
+    font-style: italic;
+    text-align: center;
+    background-color: rgb(197, 194, 4);   
+    margin: auto;
+}
+/* --- ESTILOS CARRUSEL --- */
+.carrusel{
+    top: 100px;
+}
+.carrusel__contenedor{
+
+    position: relative;
+}
+.carrusel__anterior,
+.carrusel__siguiente{     
+    position: absolute;
+    display: block;
+    top: calc(50% - 35px);
+
+}
+.carrusel__anterior{
+    left: 10em;
+}
+.carrusel__siguiente{
+    right: 10em;
+}
+.carrusel__elemento{
+    text-align: center;
+}
+.carrusel__elemento img{
+    height: 75%;
 }
